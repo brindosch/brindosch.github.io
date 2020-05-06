@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.fa85264a8a159f74b16776d39df9359b.js"
+  "/precache-manifest.df3553402b26850a05d498598e99eec2.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "hyperion-remote"});
