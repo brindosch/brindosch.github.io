@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.448069ef682e890d3bacae41acf3fbc7.js"
+  "/precache-manifest.88150ea4d568e46ee070efd895f289ff.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "hyperion-remote"});
@@ -32,3 +32,5 @@ self.addEventListener('message', (event) => {
  */
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
+
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/index.html"));
